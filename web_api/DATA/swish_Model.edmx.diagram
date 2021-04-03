@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d937e4a82cc94a58b2f9d6fd05afc4a9" Name="Diagram1" ZoomLevel="82">
+        <EntityTypeShape EntityType="swishModel.S_Images" Width="1.5" PointX="11.875" PointY="1.375" />
+        <EntityTypeShape EntityType="swishModel.S_Avatar" Width="1.5" PointX="9.75" PointY="1.875" />
+        <EntityTypeShape EntityType="swishModel.S_ConditionPrices" Width="1.5" PointX="3" PointY="6.375" />
+        <EntityTypeShape EntityType="swishModel.S_DailySentence" Width="1.5" PointX="7.375" PointY="6.25" />
+        <EntityTypeShape EntityType="swishModel.S_Item_New" Width="1.5" PointX="3" PointY="1.25" />
+        <EntityTypeShape EntityType="swishModel.S_ItemPrice" Width="1.5" PointX="0.75" PointY="0.5" />
+        <EntityTypeShape EntityType="swishModel.S_ItemSize" Width="1.5" PointX="0.75" PointY="2.75" />
+        <EntityTypeShape EntityType="swishModel.S_ItemStyle" Width="1.5" PointX="0.75" PointY="5" />
+        <EntityTypeShape EntityType="swishModel.S_User_Items" Width="1.5" PointX="5.125" PointY="1.375" />
+        <AssociationConnector Association="swishModel.FK__S_Item_Ne__condi__53D770D6" />
+        <AssociationConnector Association="swishModel.FK__S_Item_Ne__sizeI__50FB042B" />
+        <AssociationConnector Association="swishModel.FK__S_Item_Ne__style__52E34C9D" />
+        <AssociationConnector Association="swishModel.FK__S_Item_Ne__typeI__51EF2864" />
+        <AssociationConnector Association="swishModel.FK__S_User_It__itemI__59904A2C" />
+        <EntityTypeShape EntityType="swishModel.S_User_New" Width="1.5" PointX="7.375" PointY="1.375" />
+        <AssociationConnector Association="swishModel.FK__S_User_Ne__avata__65F62111" />
+        <AssociationConnector Association="swishModel.FK__S_User_Ne__daily__66EA454A" />
+        <AssociationConnector Association="swishModel.FK__S_User_It__email__6BAEFA67" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
